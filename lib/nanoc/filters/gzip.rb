@@ -3,7 +3,7 @@ require 'zlib'
 
 module Nanoc::Filters
   class Gzip < Nanoc::Filter
-    VERSION = '0.0.1'
+    VERSION = '0.0.2'
 
     identifier :gzip
     type :text
