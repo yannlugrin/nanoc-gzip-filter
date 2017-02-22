@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = Nanoc::Filters::Gzip::VERSION
 
-  gem.add_dependency 'nanoc',     '>= 3.4.0'
+  gem.add_dependency 'nanoc',     '>= 4.4.0'
 
   gem.add_development_dependency 'rake'
 end
